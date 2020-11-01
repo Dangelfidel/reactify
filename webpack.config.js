@@ -8,6 +8,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
+    
     rules: [{
       test: /\.(js|ts)x?$/,
         exclude: /node_modules/,
@@ -24,7 +25,7 @@ module.exports = {
         'css-loader',
         'postcss-loader'       
       ]
-    }]
+    }],
   
   },
   plugins: [
